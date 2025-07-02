@@ -5,9 +5,10 @@ import ApperIcon from '@/components/ApperIcon';
 const Sidebar = ({ isOpen, onClose }) => {
   const location = useLocation();
   
-  const navigationItems = [
+const navigationItems = [
     { path: '/', name: 'Dashboard', icon: 'BarChart3' },
     { path: '/campaigns', name: 'Campaigns', icon: 'Target' },
+    { path: '/templates', name: 'Templates', icon: 'Layout' },
     { path: '/calendar', name: 'Calendar', icon: 'Calendar' },
     { path: '/analytics', name: 'Analytics', icon: 'TrendingUp' }
   ];

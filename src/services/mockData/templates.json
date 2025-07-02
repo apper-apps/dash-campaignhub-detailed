@@ -1,0 +1,257 @@
+[
+  {
+    "Id": 1,
+    "name": "Welcome Email Series",
+    "description": "A 3-part welcome email sequence to onboard new subscribers with personalized content and special offers.",
+    "category": "Email Marketing",
+    "channel": "email",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Beginner",
+    "estimatedTime": "2 hours",
+    "tags": ["welcome", "onboarding", "automation"],
+    "metrics": {
+      "avgOpenRate": "45%",
+      "avgClickRate": "12%",
+      "avgConversionRate": "8%"
+    },
+    "template": {
+      "name": "Welcome Email Series",
+      "budget": 5000,
+      "channel": "email",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "subject": "Welcome to [Brand Name] - Your Journey Starts Here!",
+        "emailSequence": [
+          {
+            "day": 0,
+            "subject": "Welcome! Here's what's next...",
+            "content": "Thank you for joining our community! Here's your exclusive welcome offer..."
+          },
+          {
+            "day": 3,
+            "subject": "Getting the most out of [Product]",
+            "content": "Here are some tips to help you get started..."
+          },
+          {
+            "day": 7,
+            "subject": "Special offer just for you",
+            "content": "As a valued new member, enjoy 20% off your first purchase..."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Id": 2,
+    "name": "Social Media Product Launch",
+    "description": "Multi-platform social media campaign template for product launches with coordinated posts, stories, and engagement strategies.",
+    "category": "Social Media",
+    "channel": "social",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Intermediate",
+    "estimatedTime": "4 hours",
+    "tags": ["product-launch", "social-media", "multi-platform"],
+    "metrics": {
+      "avgEngagementRate": "6.8%",
+      "avgReachIncrease": "45%",
+      "avgConversionRate": "3.2%"
+    },
+    "template": {
+      "name": "Social Media Product Launch",
+      "budget": 15000,
+      "channel": "social",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "platforms": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+        "postSchedule": {
+          "teaser": "7 days before launch",
+          "announcement": "Launch day",
+          "followUp": "3 days after launch"
+        },
+        "contentTypes": ["Feed posts", "Stories", "Reels", "Live sessions"]
+      }
+    }
+  },
+  {
+    "Id": 3,
+    "name": "Google Ads Search Campaign",
+    "description": "High-converting search ad template with keyword research, ad copy variations, and landing page optimization strategies.",
+    "category": "Search Ads",
+    "channel": "search",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Advanced",
+    "estimatedTime": "6 hours",
+    "tags": ["google-ads", "search", "ppc"],
+    "metrics": {
+      "avgCTR": "8.5%",
+      "avgCPC": "$2.45",
+      "avgConversionRate": "12%"
+    },
+    "template": {
+      "name": "Google Ads Search Campaign",
+      "budget": 25000,
+      "channel": "search",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "keywordGroups": ["Brand keywords", "Product keywords", "Competitor keywords"],
+        "adVariations": 4,
+        "landingPages": 2,
+        "biddingStrategy": "Target CPA"
+      }
+    }
+  },
+  {
+    "Id": 4,
+    "name": "Retargeting Display Campaign",
+    "description": "Comprehensive retargeting campaign with audience segmentation, creative variations, and funnel optimization.",
+    "category": "Display Ads",
+    "channel": "display",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Intermediate",
+    "estimatedTime": "3 hours",
+    "tags": ["retargeting", "display", "audience-segmentation"],
+    "metrics": {
+      "avgCTR": "2.1%",
+      "avgConversionRate": "15%",
+      "avgCPM": "$8.50"
+    },
+    "template": {
+      "name": "Retargeting Display Campaign",
+      "budget": 18000,
+      "channel": "display",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "audienceSegments": ["Cart abandoners", "Product viewers", "Past purchasers"],
+        "creativeFormats": ["Banner ads", "Native ads", "Video ads"],
+        "frequency": "3 times per day maximum"
+      }
+    }
+  },
+  {
+    "Id": 5,
+    "name": "YouTube Video Ad Campaign",
+    "description": "Video advertising template for YouTube with storytelling framework, targeting options, and performance optimization.",
+    "category": "Video Marketing",
+    "channel": "video",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Advanced",
+    "estimatedTime": "8 hours",
+    "tags": ["youtube", "video-ads", "storytelling"],
+    "metrics": {
+      "avgViewRate": "65%",
+      "avgCPV": "$0.15",
+      "avgConversionRate": "6%"
+    },
+    "template": {
+      "name": "YouTube Video Ad Campaign",
+      "budget": 30000,
+      "channel": "video",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "videoFormats": ["Skippable in-stream", "Non-skippable", "Bumper ads"],
+        "targetingOptions": ["Demographics", "Interests", "Custom audiences"],
+        "callToAction": "Visit website"
+      }
+    }
+  },
+  {
+    "Id": 6,
+    "name": "E-commerce Black Friday",
+    "description": "Complete Black Friday campaign template with email sequences, social media posts, and paid advertising coordination.",
+    "category": "E-commerce",
+    "channel": "email",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Expert",
+    "estimatedTime": "12 hours",
+    "tags": ["black-friday", "e-commerce", "seasonal"],
+    "metrics": {
+      "avgRevenue": "$125,000",
+      "avgConversionRate": "18%",
+      "avgROAS": "450%"
+    },
+    "template": {
+      "name": "E-commerce Black Friday Campaign",
+      "budget": 50000,
+      "channel": "email",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "timeline": "4-week campaign",
+        "channels": ["Email", "Social Media", "Paid Ads", "Website"],
+        "discountStrategy": "Tiered discounts",
+        "inventory": "Limited time offers"
+      }
+    }
+  },
+  {
+    "Id": 7,
+    "name": "Lead Magnet Campaign",
+    "description": "Lead generation template with content offers, landing pages, and nurture sequences to convert prospects into customers.",
+    "category": "Email Marketing",
+    "channel": "email",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Beginner",
+    "estimatedTime": "3 hours",
+    "tags": ["lead-generation", "content-marketing", "nurture"],
+    "metrics": {
+      "avgConversionRate": "25%",
+      "avgLeadQuality": "High",
+      "avgCostPerLead": "$15"
+    },
+    "template": {
+      "name": "Lead Magnet Campaign",
+      "budget": 8000,
+      "channel": "email",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "leadMagnet": "Ultimate Guide PDF",
+        "landingPage": "Conversion-optimized",
+        "followUpSequence": "5-email nurture series",
+        "segments": ["New leads", "Engaged prospects"]
+      }
+    }
+  },
+  {
+    "Id": 8,
+    "name": "Influencer Collaboration",
+    "description": "Structured influencer marketing campaign with outreach templates, content guidelines, and performance tracking.",
+    "category": "Social Media",
+    "channel": "social",
+    "previewImage": "/api/placeholder/400/250",
+    "difficulty": "Intermediate",
+    "estimatedTime": "5 hours",
+    "tags": ["influencer-marketing", "collaboration", "content-creation"],
+    "metrics": {
+      "avgEngagementRate": "12%",
+      "avgReach": "500K",
+      "avgConversionRate": "4.5%"
+    },
+    "template": {
+      "name": "Influencer Collaboration Campaign",
+      "budget": 20000,
+      "channel": "social",
+      "status": "draft",
+      "startDate": "",
+      "endDate": "",
+      "content": {
+        "influencerTiers": ["Micro", "Macro", "Celebrity"],
+        "contentTypes": ["Posts", "Stories", "Reels", "Reviews"],
+        "deliverables": "3 posts + 5 stories per influencer",
+        "hashtags": "#BrandPartnership #Sponsored"
+      }
+    }
+  }
+]
