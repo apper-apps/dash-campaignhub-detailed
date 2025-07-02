@@ -1,0 +1,113 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F9FAFB;
+  color: #111827;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-height: 56px;
+  padding: 12px 16px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #10B981, #059669);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #EF4444, #DC2626);
+  color: white;
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #F59E0B, #D97706);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #3B82F6, #2563EB);
+  color: white;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-r from-primary via-secondary to-accent;
+  }
+  
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-card-hover hover:scale-[1.02];
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-secondary text-white font-medium px-6 py-3 rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary border-2 border-primary/20 font-medium px-6 py-3 rounded-lg hover:bg-primary/5 hover:border-primary transition-all duration-200;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-200;
+  }
+  
+  .sidebar-item {
+    @apply flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-600 hover:bg-primary/5 hover:text-primary transition-all duration-200 cursor-pointer;
+  }
+  
+  .sidebar-item.active {
+    @apply bg-gradient-to-r from-primary/10 to-secondary/10 text-primary border-r-2 border-primary;
+  }
+}
+
+.apexcharts-canvas {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.apexcharts-legend-text {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.apexcharts-tooltip {
+  font-family: 'Inter', sans-serif !important;
+  background: white !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
